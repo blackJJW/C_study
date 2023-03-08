@@ -329,7 +329,10 @@
     <ClCompile Include="ex66.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="ex67.cpp" />
+    <ClCompile Include="ex67.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ex69.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
